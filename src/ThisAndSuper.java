@@ -17,6 +17,8 @@ public class ThisAndSuper {
     public static void main(String[] args) {
             EkClass e = new EkClass(65);
             DoClass d = new DoClass(5);
-            System.out.println(e.getA()); } }
+            System.out.println(e.getA());
+        System.out.println(d.getA());
+    } }
 
 
